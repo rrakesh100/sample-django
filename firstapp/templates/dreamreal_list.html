@@ -1,0 +1,6 @@
+{% block content %}
+Dreamreals:<p>
+{% for dr in object_list %}
+{{dr.name}}-{{dr.mail}}</p>
+{% endfor %}
+{% endblock %}
